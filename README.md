@@ -41,3 +41,27 @@ And there are many more available as per application design
 
 We need to write a logic part for our application like what will happen when we click a button. All the user interactivity
 through buttons, etc. has a defined logic.
+
+
+\
+
+
+--------------------------------------------------------------------------------
+This third step can be done in two parts:
+● Create Widget
+● Place Widget
+
+\
+Create Widget: There are a number of widgets which you
+can put in your tkinter application. In our GUI-BMI calculator
+we need labels, entry box, button and label Frame.
+
+\
+Place widget: Set the geometric configuration of the
+widgets on the main window. We will use the place ()
+method to organize the widgets by placing them on the
+main screen
+
+
+------------------------------------------------------------------------
+
