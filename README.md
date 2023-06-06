@@ -36,3 +36,8 @@ And there are many more available as per application design
 
 \
 11. Call main loop
+
+\
+
+We need to write a logic part for our application like what will happen when we click a button. All the user interactivity
+through buttons, etc. has a defined logic.
