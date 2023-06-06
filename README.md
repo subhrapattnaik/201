@@ -83,4 +83,21 @@ Now it's time to place your widget on the screen that will use the place() metho
 y are coordinates according to your parent window
 
 -----------------------
+To show output, we need to create label frame,
+A LabelFrame () is different from a normal Label (),
+LabelFrame's primary purpose is to act as a spacer or container for output layouts.
+This LabelFrame () widget has the features of a frame, plus the ability to display a label
+result.
+So first we will create a result frame container.
+In the Label Frame () we are using pack () to pack the text on the window
+Now create Label () to display label inside your result frame label frame
+
+
+------------------------------------------------
+
+Fourth step is to call the main loop ()
+mainloop () that is used when your application is ready to
+run. mainloop () is an infinite loop used to run the
+application, wait for an event to occur and process the
+event as long as the window is not closed.
 
