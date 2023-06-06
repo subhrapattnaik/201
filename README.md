@@ -65,3 +65,22 @@ main screen
 
 ------------------------------------------------------------------------
 
+To add a label, we need to create one variable which is equal to Label () widget. Now set
+your label inside the parent window, that’s why we are using the window inside the label
+and all other widget attributes inside the label. Now set different attributes for labels for
+your parent window.
+\
+
+We are using label attributes like text which we want to show on your window, foreground
+color (fg), background color(bg), font, font size, border(bd).
+
+\
+
+Here app_label is variable = Label is widget () which we are creating for parent window,
+i.e. window inside Label () widget and then attributes foreground color (fg), background
+color(bg), font , font size, border(bd).
+Now it's time to place your widget on the screen that will use the place() method. Here x,
+y are coordinates according to your parent window
+
+-----------------------
+
